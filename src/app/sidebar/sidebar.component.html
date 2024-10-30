@@ -1,1 +1,22 @@
-<p>sidebar works!</p>
+<div id="mainDiv">
+  <div id="logoDiv">
+    <img id="LogoImage" src="assets/Logo.webp" />
+    <p class="logoText">Spotify</p>
+  </div>
+
+  <div class="sideBarIcons">Home</div>
+  <div class="sideBarIcons">Search</div>
+  <div class="sideBarIcons">Your Library</div>
+
+  <div class="sectionDivide">PlayLists</div>
+
+  <div class="sideBarIcons">Create PlayLists</div>
+  <div class="sideBarIcons">Liked Songs</div>
+  <div class="sectionDivide">Starred</div>
+
+  <div class="starredSongs">
+    @for(song of songs; track song.id){
+    <app-song [singer]="song.singer" [songName]="song.song" />
+    }
+  </div>
+</div>

@@ -1,0 +1,48 @@
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+    height: calc(90vh);
+}
+
+#LogoImage {
+    height: 50px;
+    padding: 0.5rem 2rem;
+}
+
+@media (max-width: 1350px) {
+    .logoText {
+        display: none;
+    }
+}
+
+#logoDiv {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.sideBarIcons {
+    font-size: large;
+    padding: 0.5rem 2rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.sideBarIcons:hover {
+    background-color: grey;
+    font-size: large;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+}
+
+.sectionDivide {
+    font-size: large;
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.starredSongs {
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
