@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    z-index: 10;
 }
 
 #upgrade {
@@ -14,4 +16,10 @@
 
 .navigation {
     font-size: xx-large;
+}
+
+.playlists {
+    overflow-y: auto;
+    height: calc(84vh);
+    padding: 0rem 0.5rem;
 }
