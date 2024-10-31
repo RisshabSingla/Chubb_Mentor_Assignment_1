@@ -1,0 +1,13 @@
+<div class="main">
+  <div id="heading">{{ songs.playlistName }}</div>
+  <div id="description">{{ songs.playlistDescription }}</div>
+  <div class="carousel">
+    @for(song of songs.songsInthePlaylist; track song.id){
+    <app-card
+      [songName]="song.songName"
+      [imageSrc]="song.imageSrc"
+      [songDesc]="song.songDesc"
+    />
+    }
+  </div>
+</div>

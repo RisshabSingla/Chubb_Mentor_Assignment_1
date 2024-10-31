@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 import { CardComponent } from './card/card.component';
-import { dummySongs } from '../dummySongs';
+import { dummyPlaylist } from '../dummyPlaylists';
+import { PlaylistComponent } from './playlist/playlist.component';
 
 @Component({
   selector: 'app-main-menu',
   standalone: true,
-  imports: [CardComponent],
+  imports: [PlaylistComponent],
   templateUrl: './main-menu.component.html',
   styleUrl: './main-menu.component.css'
 })
 export class MainMenuComponent {
-    songs = dummySongs;
+    playlists = dummyPlaylist;
 }
