@@ -1,1 +1,19 @@
-<p>main-menu works!</p>
+<div>
+  <div>
+    <div id="top-column">
+      <div>⬅️ ➡️</div>
+      <div id="upgrade">Upgrade</div>
+    </div>
+    <div id="heading">Mood</div>
+    <div id="description">Playlists to match the mood</div>
+    <div class="carousel">
+      @for(song of songs; track song.id){
+      <app-card
+        [songName]="song.songName"
+        [imageSrc]="song.imageSrc"
+        [songDesc]="song.songDesc"
+      />
+      }
+    </div>
+  </div>
+</div>

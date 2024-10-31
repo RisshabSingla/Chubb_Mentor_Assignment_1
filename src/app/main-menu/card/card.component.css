@@ -1,0 +1,29 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.mainDiv {
+    padding: 0.5rem 2rem;
+    background-color: grey;
+    border-radius: 1rem;
+    /* margin: 1rem 0rem; */
+}
+
+.songName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.songDesc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
