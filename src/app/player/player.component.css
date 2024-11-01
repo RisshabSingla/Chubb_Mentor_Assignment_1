@@ -1,7 +1,8 @@
 .player {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 1rem;
 }
 
 .playingSong {
