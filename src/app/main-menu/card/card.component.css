@@ -28,3 +28,55 @@ img {
     line-clamp: 2;
     -webkit-box-orient: vertical;
 }
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    img {
+        width: 175px;
+        height: 175px;
+        border-radius: 0.5rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 0.5rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    img {
+        width: 125px;
+        height: 125px;
+        border-radius: 0.5rem;
+    }
+
+    .songName {
+        font-size: large;
+        font-weight: 700;
+    }
+
+    .songDesc {
+        font-size: medium;
+        font-weight: 200;
+    }
+}
+
+@media (max-width: 800px) {
+    .songName {
+        font-size: medium;
+        font-weight: 700;
+    }
+
+    .songDesc {
+        font-size: small;
+        font-weight: 200;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 0.5rem;
+    }
+}

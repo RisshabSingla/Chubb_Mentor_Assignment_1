@@ -1,6 +1,6 @@
 #top-column {
     width: 95%;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,4 +22,5 @@
     overflow-y: auto;
     height: calc(84vh);
     padding: 0rem 0.5rem;
+    scrollbar-width: none;
 }

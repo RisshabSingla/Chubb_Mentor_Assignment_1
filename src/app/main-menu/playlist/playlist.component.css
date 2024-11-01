@@ -20,3 +20,41 @@
     margin: 1rem 2rem;
     padding-top: 1rem;
 }
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .carousel {
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    #heading {
+        font-size: large;
+        font-weight: 700;
+    }
+
+    #description {
+        font-size: medium;
+        font-weight: 200;
+    }
+
+    .carousel {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    #heading {
+        font-size: medium;
+        font-weight: 700;
+    }
+
+    #description {
+        font-size: small;
+        font-weight: 200;
+    }
+
+    .carousel {
+        gap: 0.5rem;
+    }
+}
