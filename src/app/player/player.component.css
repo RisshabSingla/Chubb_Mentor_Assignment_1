@@ -1,0 +1,50 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.playingSong {
+    position: fixed;
+    display: flex;
+    padding-left: 1rem;
+    width: 30%;
+}
+
+.playPauseNext {
+    font-size: large;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.playerControls {
+    position: fixed;
+    width: 60%;
+    margin-left: 35%;
+}
+
+.extraControls {
+    position: fixed;
+    margin-left: 90%;
+    width: 10%;
+    justify-content: end;
+}
+
+.songImg {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.songTitle {
+    font-size: medium;
+}
+
+.songSinger {
+    font-size: small;
+}
+
+
+#bar {
+    width: 75%;
+}
