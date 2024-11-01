@@ -60,10 +60,10 @@ app-player {
 
 @media (max-width: 800px) {
     app-sidebar {
-        width: 50%;
+        width: 40%;
     }
 
     app-main-menu {
-        margin-left: 50%;
+        margin-left: 40%;
     }
 }
