@@ -6,7 +6,7 @@ div {
 
 app-sidebar {
     width: 15%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 50px);
     position: fixed;
     top: 0;
     left: 0;
@@ -15,9 +15,10 @@ app-sidebar {
 
 app-main-menu {
     margin-left: 15%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 80px);
     overflow-y: auto;
     flex-grow: 1;
+    scrollbar-width: none;
 }
 
 app-player {
